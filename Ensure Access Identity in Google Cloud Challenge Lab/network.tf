@@ -55,6 +55,7 @@ resource "google_compute_instance" "default" {
   }
 
   metadata_startup_script = data.template_file.default.rendered
+  depends_on = [ google_container_node_pool.primary_nodes, google_container_cluster.primary ]
 }
 
 data "template_file" "default" {
