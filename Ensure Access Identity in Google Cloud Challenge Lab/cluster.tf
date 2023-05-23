@@ -20,7 +20,7 @@ resource "google_container_cluster" "primary" {
 
   master_authorized_networks_config {
     cidr_blocks {
-      cidr_block   = "192.168.1.1/32"
+      cidr_block   = "192.169.1.1/32"
       display_name = "net1"
     }
   }
