@@ -29,4 +29,3 @@ resource "google_project_iam_member" "default" {
   member  = "serviceAccount:${google_service_account.default.email}"
   project = var.project_id
 }
-

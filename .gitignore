@@ -1,0 +1,6 @@
+**/.terraform
+**/terraform.tfstate*
+.idea
+.vscode
+**/test/.terraform.lock.hcl
+**/*.plan
