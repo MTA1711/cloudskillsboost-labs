@@ -1,6 +1,6 @@
 # Task 1. Create a Firestore database
 
-gcloud firestore databases create --region=nam5 
+gcloud firestore databases create --location=nam5 
 
 # Task 2. Populate the Database
 cd ~/pet-theory/lab06/firebase-import-csv/solution || exit
